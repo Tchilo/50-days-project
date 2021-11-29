@@ -1,16 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# 50project
 
-> Building a Portfolio to show what I'm truly capable of as a developer, as well as showing my future recruiters and hiring managers to get an idea of what I can bring to their teams.
+> Building 50 project in 50 days to upgrade my skills in html , css and js.
 
 
-
-![screenshot](./header-toolbar.png)
-![screenshot](./desktop.png)
 
 ## Live link
-[Click here to see project](https://tchilo.github.io/Portfolio/)
+[will update]()
 
 Additional description about the project and its features.
 
@@ -19,6 +16,7 @@ Additional description about the project and its features.
 - Major languages
 - HTML
 - CSS
+- JS
 
 
 ## Getting Started
