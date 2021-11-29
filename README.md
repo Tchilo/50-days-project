@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# 50project
+# Expanding Cards 
 
 > Building 50 project in 50 days to upgrade my skills in html , css and js.
 
