@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?Muli&display=swap');
 
+:root {
+  --border-fill: #3498db;
+  --border-empty: #e0e0e0;
+}
 * {
   box-sizing: border-box;
 }
@@ -26,4 +30,66 @@ body {
   justify-content: space-between;
   max-width: 100%;
   width: 350px;
+}
+
+.progress-container::before {
+  content: '';
+  background-color: var(--border-empty);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 4px;
+  transform: translatey(-50%);
+  width: 100%;
+  z-index: -1;
+}
+.progress {
+  background-color: var(--border-fill);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 4px;
+  transform: translatey(-50%);
+  width: 0%;
+  z-index: -1;
+  transition:  0.4s ease;
+}
+
+.num {
+  background-color: #fff;
+  color: #999;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--border-empty);
+  transition: .4s ease;
+}
+
+.num.active {
+  border-color: var(--border-fill);
+}
+
+button {
+  background-color: var(--border-fill);
+  border: 0;
+  padding: 8px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: var(--border-empty);
 }
