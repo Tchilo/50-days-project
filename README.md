@@ -23,8 +23,11 @@ Additional description about the project and its features.
 
 **To get a copy of this repo into your local machine run the following command:**
 ```
-git clone git@github.com:Tchilo/Mobile-version.git 
-cd Mobile-version
+git clone git@github.com:Tchilo/50-days-project.git 
+cd 50-days-project
+
+Open visual studio code 
+
 in visual studio code you can click the go live button to view it live in the browser.
 ```
 
