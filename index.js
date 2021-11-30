@@ -4,6 +4,8 @@ const progress = document.getElementById('progress');
 const nums = document.querySelectorAll('.num');
 
 let currentNum = 1;
+
+// Update function
 const update = () => {
   nums.forEach((num, indx) => {
     if (indx < currentNum) {
@@ -29,7 +31,7 @@ const update = () => {
 
 next.addEventListener('click', () => {
   update();
-  currentNum++;
+  currentNum += 1;
   if (currentNum > nums.length) {
     currentNum = nums.length;
   }
@@ -38,7 +40,7 @@ next.addEventListener('click', () => {
 
 // prev btn
 prev.addEventListener('click', () => {
-  currentNum--;
+  currentNum -= 1;
 
   if (currentNum < 1) {
     currentNum = 1;
