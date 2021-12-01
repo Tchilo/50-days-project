@@ -8,3 +8,7 @@ bars.addEventListener('click', () => {
     ul.classList.remove('d-none');
 
 });
+
+close.addEventListener('click', () => {
+    container.classList.remove('show-nav');
+});
