@@ -4,7 +4,8 @@
 
 > Building hidden search is a search bar that starts out hidden untile the user clicks on it and it opens so that a serch can be added.
 
-
+![closed](bar.png)
+![open](openbar.png)
 
 ## Live link
 [will update]()
