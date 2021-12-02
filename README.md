@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# 50project
+# Hidden Search
 
-> Building 50 project in 50 days to upgrade my skills in html , css and js.
+> Building hidden search is a search bar that starts out hidden untile the user clicks on it and it opens so that a serch can be added.
 
 
 
