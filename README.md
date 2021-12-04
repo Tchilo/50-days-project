@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# 50project
+# Scroll Animation
 
-> Building 50 project in 50 days to upgrade my skills in html , css and js.
+> Scroll Animation is a project that Adds content to the page as a user scrolls down to the page.
 
 
 
