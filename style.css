@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,12 +6,34 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: rgb(161, 100, 223);
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
   display: flex;
-  flex-direction: column;
+  text-align: center;
   align-items: center;
   height: 100vh;
   justify-content: center;
   overflow: hidden;
+}
+
+.btn {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
 }
