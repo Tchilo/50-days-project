@@ -1,9 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# 50project
+# Event keyCodes
 
-> Building 50 project in 50 days to upgrade my skills in html , css and js.
+>Event keyCodes is a project that will display information about a key that is pressed on the keyboard.
 
+![](t.png)
+![](key.png)
 
 
 ## Live link
