@@ -43,3 +43,5 @@ const highlightCups = (index) => {
 cups.forEach((cup, index) => {
   cup.addEventListener('click', () => highlightCups(index));
 });
+
+localStorage.setItem('water' )
